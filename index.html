@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resetstyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#About">About me</a></li>               
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Language">Language</a></li>
+                <li><a href="#Code">Code</a></li>
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container cont">
+        <div class="left">
+            <div><h1>Vladislav Ulitin</h1></div>
+            <p><img src="photo.jpg" alt="Photo"  class="photo"></p>
+            <div id="Contacts"><h2>Contacts</h2>
+            <ul class="list">
+                <li>Phone: <a href="tel:+375(29)3898551">+375 (29) 389-85-51</a></li>
+                <li>E-mail: <a href="mailto:vlad_ulitin@mail.ru">vlad_ulitin@mail.ru</a></li>
+                <li>Address: Belskogo str., Minsk, Belarus</li>
+            </ul>
+            </div>
+        </div>
+        <div class="right">
+        <div id="About"><h2>About me</h2>
+            <p>I am 26 years old. I want to become a front-end developer.</p>
+        </div>
+        <div id="Education"><h2>Education</h2>
+            <ul class="list">
+                <li>Belarusian National Technical University</li>
+                <li>Intro in IT (LeverX Group)</li>
+                <li>Tilda (ProDigital)</li>
+                <li>HTML/CSS/JS (Code Basics)</li>
+            </ul>
+        </div>
+        <div id="Skills"><h2>Skills</h2>
+            <ul class="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div id="Language"><h2>Language</h2>
+            <ul class="list">
+                <li>Russian - Native</li>
+                <li>English - A2</li>
+            </ul>
+        </div>
+        <div id="Code"><h2>Code example</h2>
+           <pre> <code>
+                function paperwork(n, m) {<br>
+                    let result = 0;<br>
+                    if (n&lt;0||m&lt;0){<br>
+                      return result=0;<br>
+                    } else {<br>
+                      return result=n*m;<br>
+                    } <br>
+                  }
+            </code></pre>
+        </div>
+        <div id="Projects"><h2>My projects</h2>
+            <ul class="list">
+                <li><a href="https://idvaldi.github.io/rsschool-cv/">My CV</a></li>
+            </ul>
+        </div>
+        </div>
+    </main>
+    <footer class="container">
+        <a class="footer__github" href="https://github.com/idvaldi" target="_blank">Visit my GitHub</a> 
+         <p>&#169; 2022</p>
+          <a href="https://rs.school/js/" target="_blank">
+        <img src="https://rs.school/images/rs_school.svg" width="86" height="32" alt="RS School" /></a>
+    </footer>
+</body>
+</html>
